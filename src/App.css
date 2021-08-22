@@ -1,0 +1,20 @@
+/* Skills Sections */
+#skills {
+  background: var(--main-color);
+  color: white;
+}
+#logo3 {
+  color: white;
+}
+.skills-list i {
+  font-size: 3rem;
+  margin: 2rem;
+}
+#about {
+  background: var(--main-color);
+  color: white;
+}
+
+#aboutMe {
+  color: white;
+}

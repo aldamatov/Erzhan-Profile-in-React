@@ -1,0 +1,6 @@
+.section-title {
+  border-bottom: 0.4rem solid var(--main-color2);
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
