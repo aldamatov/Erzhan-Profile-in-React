@@ -2,6 +2,8 @@
 
 Hey guys, thank you for visiting . Feel free to re-use my code .
 
-##How to use
+## How to use
 
-clone the repo
+- clone the repo
+- run `npm install`
+- run `npm start`
