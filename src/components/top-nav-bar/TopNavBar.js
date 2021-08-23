@@ -6,9 +6,9 @@ import "./topNav.style.css";
 export const TopNavBar = () => {
     return (
         <div>
-            <Navbar  expand="lg">
+            <Navbar expand="lg">
   <Container>
-    <Navbar.Brand href="/">
+    <Navbar.Brand href="#">
         <img src={logo} width="100px" alt="logo"/>
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />

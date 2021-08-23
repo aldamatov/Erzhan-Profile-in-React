@@ -14,8 +14,8 @@ export const Projects = () => {
                     <Col md="6"><img src={toDoList} width="100%" alt="not to do task list"/></Col>
                     <Col md="6"><div class="fs-2 fw-bold">
 								Not To Do Task Lists -{" "}
-								<a href="" target="_blank"><i class="fab fa-github"></i></a> {" "}
-								<a href=""><i class="fab fa-chrome"></i></a>
+								<a href="#" target="_blank"><i class="fab fa-github"></i></a> {" "}
+								<a href="#"><i class="fab fa-chrome"></i></a>
 							</div>
 							<div class="fst-italic">Tech: HTML, CSS, JS</div>
 
