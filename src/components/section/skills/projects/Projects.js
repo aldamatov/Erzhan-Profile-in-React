@@ -49,7 +49,7 @@ export const Projects = () => {
            
            
            <Row className="mt-5">
-               <Col><img src={prankCalc} width="90%" height="90%" alt="prank calculator" /></Col>
+               <Col><img src={prankCalc} width="100%"  alt="prank calculator" /></Col>
                <Col><div class="fs-2 fw-bold">
 								Prank Calculator 🤣 -{" "}
 								<a href="" target="_blank"><i class="fab fa-github"></i></a>{" "}
