@@ -3,7 +3,7 @@ import { Col, Container, Row, Button } from 'react-bootstrap'
 import { TopNavBar } from '../top-nav-bar/TopNavBar'
 import "./hero.style.css"
 import myImg from '../../assets/img/mypic.png'
-import myCV from '../../assets/Eliza CV.pdf'
+import myCV from '../../assets/ErzhanCV.pdf'
 export const Hero = () => {
     return (
         <div className="hero">
