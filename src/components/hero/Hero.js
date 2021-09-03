@@ -20,7 +20,7 @@ export const Hero = () => {
                  
                 <div>
 {/*                      <Button variant="danger" sm>Hire Me</Button>{" "}
-    */}                     <Button href={myCV} variant="info" size= "md">Download Resume</Button>
+    */}                     <Button href={myCV} variant="info" size= "sm">Download Resume</Button>
                  </div> 
                 </div>   
                     </Col>
