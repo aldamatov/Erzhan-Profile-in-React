@@ -8,3 +8,6 @@
 #software {
   font-size: x-large;
 }
+ul {
+  list-style-type: none;
+}
