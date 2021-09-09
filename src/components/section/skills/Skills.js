@@ -9,7 +9,7 @@ export const Skills = () => {
             <Container>
                 <Row>
                     <Col>
-                    <div id="logo3" class="fc-white skills-list fs-3  fw-bold d-flex justify-content-between flex-wrap mt-4">
+                    <div id="logo3" class="fc-white skills-list fs-4  d-flex justify-content-between flex-wrap mt-2">
             
             <div><i class="fab fa-html5 text-primary"></i>HTLM</div>
             <div><i class="fab fa-css3-alt text-danger"></i>CSS</div>

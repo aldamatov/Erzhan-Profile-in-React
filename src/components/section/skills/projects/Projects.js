@@ -14,8 +14,8 @@ export const Projects = () => {
                     <Col md="6"><img src={toDoList} width="100%" alt="not to do task list"/></Col>
                     <Col md="6"><div class="fs-2 fw-bold">
 								Not To Do Task Lists -{" "}
-								<a href="" target="_blank"><i class="fab fa-github"></i></a> {" "}
-								<a href=""><i class="fab fa-chrome"></i></a>
+								<a href="#" target="_blank"><i class="fab fa-github"></i></a> {" "}
+								<a href="#"><i class="fab fa-chrome"></i></a>
 							</div>
 							<div class="fst-italic">Tech: HTML, CSS, JS</div>
 
@@ -29,6 +29,7 @@ export const Projects = () => {
                 </Row>
                 <Row className="mt-5">
                 <Col md ="6" className="order-2"><img
+				href="https://www.aldamatov.com/"
 								src= {profImg}
 								width="100%"
 								alt="Profile Project"
@@ -36,7 +37,7 @@ export const Projects = () => {
                     <Col md="6" className="order-1"><div class="fs-2 fw-bold ">
 								My Portfolio website -{" "}
 								<a href="" target="_blank"><i class="fab fa-github"></i></a> {" "}
-								<a href=""><i class="fab fa-chrome"></i></a>
+								<a href="https://www.aldamatov.com/" target="_blank"><i class="fab fa-chrome"></i></a>
 							</div>
 							<div class="fst-italic">Tech: HTML, CSS, JS</div>
 
@@ -49,11 +50,14 @@ export const Projects = () => {
            
            
            <Row className="mt-5">
-               <Col><img src={prankCalc} width="90%" height="90%" alt="prank calculator" /></Col>
-               <Col><div class="fs-2 fw-bold">
+               <Col md="6" className="order-1"><img 
+			   					src={prankCalc} 
+								width="100%"  
+								alt="prank calculator" /></Col>
+               <Col md="6" className="order-2"><div class="fs-2 fw-bold">
 								Prank Calculator 🤣 -{" "}
-								<a href="" target="_blank"><i class="fab fa-github"></i></a>{" "}
-								<a href=""><i class="fab fa-chrome"></i></a>
+								<a href="https://github.com/aldamatov/Calculator.git" target="_blank"><i class="fab fa-github"></i></a>{" "}
+								<a href="https://prank-calculator.vercel.app/" target="_blank"><i class="fab fa-chrome"></i></a>
 							</div>
 							<div class="fst-italic">Tech: HTML, CSS, JS</div>
 

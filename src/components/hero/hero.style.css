@@ -5,3 +5,9 @@
   background-size: cover;
   background-position: center;
 }
+#software {
+  font-size: x-large;
+}
+ul {
+  list-style-type: none;
+}
