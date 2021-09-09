@@ -17,23 +17,23 @@ export const Hero = () => {
                 <Row className="mt-5 ">
                     <Col md="9">
                  <div className="order-md-1 text-lg-center mt-5 justify-content-md-center "> 
-                 <h1>Erzhan Aldamatov</h1>
+                 <h1 className="fw-bold">Erzhan Aldamatov</h1>
                 
                  <ul className="contact">
                      <li><p id="software">Software Engineer</p> </li>
                      <li className="mb-1 " >
-                         <i className="fa fa-envelope"></i> {" "}
-                         <Button href="mailto:" variant="outline-primary" size= "sm">Email Me</Button>
+                         <i className="fa fa-envelope-open-text"></i> {" "}
+                         <Button href="mailto:" variant="success" size= "sm">Email Me</Button>
                          
                      </li>
                      
                      <li className="mb-1 ">
-                         <i className="fa fa-phone mb-2"></i> {" "}
-                         <Button href="tel:+61431553757" variant="outline-danger" size= "sm">+61 431 553 757</Button>
+                         <i className="fa fa-phone-volume mb-2"></i> {" "}
+                         <Button href="tel:+61431553757" variant="warning" size= "sm">+61 431 553 757</Button>
                      </li>{" "}
                      <li>
-                     <i className="fa fa-file "></i>{" "}
-                     <Button href={myCV} variant="outline-success" size= "sm">Download Resume</Button>
+                     <i className="fa fa-file-alt "></i>{" "}
+                     <Button href={myCV} variant="danger" size= "sm">Download Resume</Button>
 
                      </li>
                  </ul>

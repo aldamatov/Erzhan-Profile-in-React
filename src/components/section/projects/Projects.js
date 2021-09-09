@@ -1,9 +1,9 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import { SectionTitle } from '../../../section-title/SectionTitle'
-import toDoList from '../../../../assets/img/todolist.PNG'
-import profImg from '../../../../assets/img/myportfolio.PNG'
-import prankCalc from '../../../../assets/img/calculator.PNG'
+import { SectionTitle } from '../../section-title/SectionTitle'
+import profImg from '../../../assets/img/myportfolio.PNG'
+import prankCalc from '../../../assets/img/calculator.PNG'
+import toDoList from "../../../assets/img/todolist.PNG"
 
 export const Projects = () => {
     return (
