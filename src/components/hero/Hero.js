@@ -17,7 +17,7 @@ export const Hero = () => {
                 <Row className="mt-5 ">
                     <Col md="9">
                  <div className="order-md-1 text-lg-center mt-5 justify-content-md-center "> 
-                 <h1>I am Erzhan Aldamatov</h1>
+                 <h1>Erzhan Aldamatov</h1>
                 
                  <ul className="contact">
                      <li><p id="software">Software Engineer</p> </li>
