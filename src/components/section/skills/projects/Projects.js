@@ -36,7 +36,7 @@ export const Projects = () => {
 							/></Col>
                     <Col md="6" className="order-1"><div class="fs-2 fw-bold ">
 								My Portfolio website -{" "}
-								<a href="" target="_blank"><i class="fab fa-github"></i></a> {" "}
+								<a href="https://github.com/aldamatov/Erzhan-Profile-in-React.git" target="_blank"><i class="fab fa-github"></i></a> {" "}
 								<a href="https://www.aldamatov.com/" target="_blank"><i class="fab fa-chrome"></i></a>
 							</div>
 							<div class="fst-italic">Tech: HTML, CSS, JS</div>
