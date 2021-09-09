@@ -27,14 +27,20 @@ export const Hero = () => {
                      </li>
                      
                      <li>
-                         <i className="fa fa-phone"></i> {" "}
-                         <a href="tel:+61431553757">+61 431 553 757</a>
+                         <i className="fa fa-phone mb-2"></i> {" "}
+                         <a href="tel:+61431553757"></a>
+                         <Button href="tel:+61431553757" variant="danger" size= "sm">+61 431 553 757</Button>
+                     </li>{" "}
+                     <li>
+                     <i className="fa fa-file "></i>{" "}
+                     <Button href={myCV} variant="info" size= "sm">Download Resume</Button>
+
                      </li>
                  </ul>
                  
                 <div>
 {/*                      <Button variant="danger" sm>Hire Me</Button>{" "}
-    */}                     <Button href={myCV} variant="info" size= "sm">Download Resume</Button>
+    */}                     
                  </div> 
                 </div>   
                     </Col>
