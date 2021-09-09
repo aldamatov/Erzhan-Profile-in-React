@@ -23,7 +23,7 @@ export const Hero = () => {
                      <li><p id="software">Software Engineer</p> </li>
                      <li className="mb-1 " >
                          <i className="fa fa-envelope-open-text"></i> {" "}
-                         <Button href="mailto:" variant="success" size= "sm">Email Me</Button>
+                         <Button href="mailto:" variant="primary" size= "sm">Email Me</Button>
                          
                      </li>
                      
