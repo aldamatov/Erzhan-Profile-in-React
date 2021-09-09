@@ -28,7 +28,6 @@ export const Hero = () => {
                      
                      <li>
                          <i className="fa fa-phone mb-2"></i> {" "}
-                         <a href="tel:+61431553757"></a>
                          <Button href="tel:+61431553757" variant="danger" size= "sm">+61 431 553 757</Button>
                      </li>{" "}
                      <li>
