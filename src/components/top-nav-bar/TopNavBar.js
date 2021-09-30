@@ -5,7 +5,7 @@ import "./topNav.style.css";
 
 export const TopNavBar = () => {
     return (
-        <div>
+        <div id="navbar">
             <Navbar  expand="lg">
   <Container>
     <Navbar.Brand href="/">

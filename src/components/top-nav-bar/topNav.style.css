@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 .navbar-nav a {
   color: var(--main-color) !important;
+  font-family: "Varela Round", sans-serif;
 }
 
 .navbar-nav a:hover {
-  color: rgb(216, 19, 19) !important;
+  color: #b30f27 !important;
 }

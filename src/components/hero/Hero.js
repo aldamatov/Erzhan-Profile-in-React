@@ -24,7 +24,7 @@ export const Hero = () => {
                      <li><h4 id="software">Software Engineer</h4> </li>
                      <li className="mb-1 " >
                          <i className="fa fa-envelope-open-text"></i> {" "}
-                         <Button href="mailto:" variant="primary" size= "sm">Email Me</Button>
+                         <Button href="mailto:aldamatov@gmail.com" variant="primary" size= "sm">Email Me</Button>
                          
                      </li>
                      

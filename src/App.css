@@ -14,11 +14,15 @@
 #about {
   background: var(--main-color);
   color: white;
+  font-family: "Varela Round", sans-serif;
 }
 
 #aboutMe {
   color: white;
 }
 #projects {
+  font-family: "Varela Round", sans-serif;
+}
+#foot {
   font-family: "Varela Round", sans-serif;
 }
