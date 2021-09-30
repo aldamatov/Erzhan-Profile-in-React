@@ -17,10 +17,11 @@ export const Hero = () => {
                 <Row className="mt-5 ">
                     <Col md="9">
                  <div className="order-md-1 text-lg-center mt-5 justify-content-md-center "> 
-                 <h1 className="fw-bold">Erzhan Aldamatov</h1>
                 
                  <ul className="contact">
-                     <li><p id="software">Software Engineer</p> </li>
+                     <li> <h1 id="era" className="fw-bold fs-large">Erzhan Aldamatov</h1>
+                </li>
+                     <li><h4 id="software">Software Engineer</h4> </li>
                      <li className="mb-1 " >
                          <i className="fa fa-envelope-open-text"></i> {" "}
                          <Button href="mailto:" variant="primary" size= "sm">Email Me</Button>

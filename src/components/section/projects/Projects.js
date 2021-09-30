@@ -9,31 +9,12 @@ export const Projects = () => {
         <div id= "projects" className="py-5 ">
             <SectionTitle title="Projects"/>
             <Container>
-                <Row className="mt-5 outline-dark"> 
-                    <Col md="6"><img src={toDoList} width="100%" alt="not to do task list"/></Col>
-                    <Col md="6"><div class="fs-2 fw-bold ">
-								Not To Do Task Lists -{" "}
-								<a href="https://google.com" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a> {" "}
-								<a href="https://google.com" target="_blank" rel="noreferrer"><i class="fab fa-chrome"></i></a>
-							</div>
-							<div class="fst-italic fw-bold">Tech: HTML, CSS, Javascript</div>
-							<p class="mt-3">
-								<strong>About:</strong> Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Ratione nesciunt quod itaque molestiae! Earum
-								accusantium accusamus, libero corporis sed veniam!
-							</p>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></Col>
-
-                </Row>
+                
                 <Row className="mt-5">
-                <Col md ="6" className="order-2"><img
-								src= {profImg}
-								width="100%"
-								alt="Profile Project"
-							/></Col>
-                    <Col md="6" className="order-1"><div class="fs-2 fw-bold ">
+                <Col md ="6" className="order-1"><a href="aldamatov.com"><img src= {profImg} width="100%" alt="Profile Project" /></a></Col>
+                    <Col md="6" className="order-2"><div class="fs-2 fw-bold ">
 								My Portfolio website -{" "}
-								<a href="https://github.com/aldamatov/Erzhan-Profile-in-React.git" rel="noreferrer" target="_blank"><i class="fab fa-github"></i></a> {" "}
+								<a href="https://github.com/aldamatov/Erzhan-Profile-in-React.git" rel="noreferrer" target="_blank"><i class="fab fa-github-alt"></i></a> {" "}
 								<a href="https://aldamatov.com" rel="noreferrer"  target="_blank"><i class="fab fa-chrome"></i></a>
 							</div>
 							<div class="fst-italic fw-bold">Tech: HTML, CSS, Javascript</div>
@@ -44,13 +25,26 @@ export const Projects = () => {
 								accusantium accusamus, libero corporis sed veniam!
 							</p></Col>
                 </Row>
-           
-           
+				<Row className="mt-5"> 
+                    <Col md ="6" className="order-2"><img src={toDoList} width="100%" alt="not to do task list"/></Col>
+                    <Col md="6" className="order-1"><div class="fs-2 fw-bold ">
+								Not To Do Task Lists -{" "}
+								<a href="https://google.com" target="_blank" rel="noreferrer"><i class="fab fa-github-alt"></i></a> {" "}
+								<a href="https://google.com" target="_blank" rel="noreferrer"><i class="fab fa-chrome"></i></a>
+							</div>
+							<div class="fst-italic fw-bold">Tech: HTML, CSS, Javascript</div>
+							<p class="mt-3">
+								<strong>About:</strong> Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Ratione nesciunt quod itaque molestiae! Earum
+								accusantium accusamus, libero corporis sed veniam!
+							</p></Col>
+
+                </Row>
            <Row className="mt-5">
-               <Col><img src={prankCalc} width="90%" alt="prank calculator" /></Col>
-               <Col><div class="fs-2 fw-bold">
+               <Col  md ="6" className="order-1"><a href="https://prank-calculator.vercel.app/"><img src={prankCalc} width="100%" alt="prank calculator" /></a></Col>
+               <Col md="6" className="order-2"><div class="fs-2 fw-bold">
 								Prank Calculator 🤣 -{" "}
-								<a href="https://github.com/aldamatov/Calculator.git" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>{" "}
+								<a href="https://github.com/aldamatov/Calculator.git" target="_blank" rel="noreferrer"><i class="fab fa-github-alt"></i></a>{" "}
 								<a href="https://prank-calculator.vercel.app" target="_blank" rel="noreferrer"><i class="fab fa-chrome"></i></a>
 							</div>
 							<div class="fst-italic fw-bold">Tech: HTML, CSS, Javascript</div>

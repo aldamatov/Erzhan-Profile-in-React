@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
 .hero {
   min-height: 60vh;
   background: url(../../assets/img/Bg1.jpg);
@@ -8,4 +10,12 @@
 ul {
   list-style-type: none;
   margin-top: 0%;
+  font-family: "Varela Round", sans-serif;
+}
+#era {
+  font-family: "Varela Round", sans-serif;
+}
+
+#software {
+  font-family: "Varela Round", sans-serif;
 }
