@@ -10,7 +10,7 @@ export const About = () => {
             <Container>
                 <Row className="mt-5">
                     <Col><img src={myPicture} class="img" alt="Erzhan" /></Col>
-                    <Col id="aboutMe"><p>
+                    <Col  id="aboutMe"><p>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
 								quia sunt aliquid. Ab, beatae saepe!
 							</p>

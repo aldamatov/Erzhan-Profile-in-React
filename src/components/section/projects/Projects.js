@@ -4,6 +4,7 @@ import { SectionTitle } from '../../section-title/SectionTitle'
 import profImg from '../../../assets/img/myportfolio.PNG'
 import prankCalc from '../../../assets/img/calculator.PNG'
 import toDoList from "../../../assets/img/todolist.PNG"
+import TicTacToe from "../../../assets/img/TicTac.PNG"
 export const Projects = () => {
     return (
         <div id= "projects" className="py-5 ">
@@ -26,9 +27,9 @@ export const Projects = () => {
 							</p></Col>
                 </Row>
 				<Row className="mt-5"> 
-                    <Col md ="6" className="order-2"><img src={toDoList} width="100%" alt="not to do task list"/></Col>
+                    <Col md ="6" className="order-2"><img src={TicTacToe} width="100%" alt="not to do task list"/></Col>
                     <Col md="6" className="order-1"><div class="fs-2 fw-bold ">
-								Not To Do Task Lists -{" "}
+								Tic Tac Toe Game -{" "}
 								<a href="https://google.com" target="_blank" rel="noreferrer"><i class="fab fa-github-alt"></i></a> {" "}
 								<a href="https://google.com" target="_blank" rel="noreferrer"><i class="fab fa-chrome"></i></a>
 							</div>
